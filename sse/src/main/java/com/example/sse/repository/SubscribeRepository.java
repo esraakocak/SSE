@@ -1,0 +1,13 @@
+package com.example.sse.repository;
+
+import java.util.Optional;
+
+import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
+
+public interface SubscribeRepository {
+	
+	void addOrReplace (String memberId, SseEmitter emitter);
+	void remove (String memberId);
+	Optional <SseEmitter> get(String memberId);
+
+}

@@ -1,0 +1,5 @@
+package com.example.sse.repository;
+
+public class SubscribeRepository {
+
+}

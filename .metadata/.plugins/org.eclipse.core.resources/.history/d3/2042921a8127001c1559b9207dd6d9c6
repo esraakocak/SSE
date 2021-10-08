@@ -1,0 +1,5 @@
+package com.example.sse.model;
+
+public class Event {
+
+}

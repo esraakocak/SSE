@@ -1,0 +1,4 @@
+spring.application.name=server-sent-events
+spring.profiles.active=local
+events.connection.timeout=5000
+server.servlet.context-path=/notification

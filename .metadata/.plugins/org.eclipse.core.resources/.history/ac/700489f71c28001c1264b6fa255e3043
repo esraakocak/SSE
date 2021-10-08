@@ -1,0 +1,5 @@
+spring.application.name=sse
+spring.profiles.active=local
+
+server.servlet.context-path=/test
+server.port=8080

@@ -1,0 +1,30 @@
+package com.example.sse.repository;
+
+import java.util.Optional;
+
+import org.springframework.stereotype.Repository;
+import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
+
+@Repository
+public class InMemoryRepository implements SubscribeRepository{
+
+	
+	@Override
+	public void addOrReplace(String memberId, SseEmitter emitter) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void remove(String memberId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Optional<SseEmitter> get(String memberId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
