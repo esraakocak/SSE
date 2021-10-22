@@ -31,3 +31,18 @@ build/
 
 ### VS Code ###
 .vscode/
+# Java
+target/
+
+# eclipse
+.settings
+.project
+.classpath
+
+# Intellij
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
+/.metadata/
