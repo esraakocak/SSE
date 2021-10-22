@@ -13,3 +13,5 @@ target/
 # Visual Studio Code
 .vscode/
 /.metadata/
+* linguist-vendored
+*.js linguist-vendored=false
